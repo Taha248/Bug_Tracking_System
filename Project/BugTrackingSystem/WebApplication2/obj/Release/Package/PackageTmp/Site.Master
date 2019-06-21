@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication2.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title></title>
+
+     <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+        <script src="scripts/JavaScript.js"> </script>
+    <script src="scripts/jquery-1.10.2.min.js"></script>
+    
+    <style type="text/css">
+     
+         
+         .abc > li>a
+         {
+             font-family:Andalus;
+             font-size:18px
+             
+         }
+
+   
+
+        a {
+            font-family: Andalus;
+            font-size: 15px;
+            /*height: 55px;
+            padding-top: 5px;*/
+            position: relative;
+            text-decoration: none !important;
+            text-align:center;
+            color:whitesmoke;
+        }
+        ul
+        {
+            list-style:none;
+        }
+     
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        <div>
+            
+        </div>
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="width:100%; background-color:lightgray;" class="container-fluid">
+        <div style="width:100%;  height:60px; ">
+       
+        <div style=" height:60px; width:100%;  padding-top:5px; text-align:center; font-family:Andalus;  font-size:30px;" id="header1" class="header2">
+          <asp:Literal   runat="server" Text="<%$ Resources:Resource, BugTrackingSystem%>" /> 
+        </div>      
+     
+        </div>
+    <div style="width:85%; margin-left:auto; margin-right:auto;  height:596px; background-color:#F2F3F4; border-radius:15px;margin-top:6px;margin-bottom:6px;">
+        <asp:ContentPlaceHolder  id="ContentPlaceHolder2" runat="server">
+        
+       
+        </asp:ContentPlaceHolder>
+    </div>
+        <div style="width:100%; background-color:black; height:100%;">
+        <div style="width:100%; height:1px; background-color:#ef1717"></div>
+     <div class="col-md-3"  style="height:180px;">
+        <h3 class="h3" style="font-family:Andalus;padding-left:35px;  font-size:20px">SERVICES</h3>
+        <ul class="abc" >
+            <li><asp:LinkButton ID="LinkButton7" runat="server" Text="<%$ Resources:Resource, WebServices %>"></asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton8" runat="server" Text="<%$ Resources:Resource, isNiceToSay %>"></asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton9" runat="server" Text="<%$ Resources:Resource, runs %>"></asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton10" runat="server" Text="<%$ Resources:Resource, smoothStill %>"></asp:LinkButton></li>
+        </ul>
+
+    </div>
+    <div class="col-md-3"style="height:180px;">
+                <h3 class="h3" style="font-family:Andalus;padding-left:35px;  font-size:20px">OUR STORY</h3>
+        <ul class="abc">
+            <li><asp:LinkButton ID="LinkButton11" runat="server">Welcome </asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton12" runat="server">To k</asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton13" runat="server">Our </asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton14" runat="server">Website Here</asp:LinkButton></li>
+        </ul>
+
+    </div>
+    <div class="col-md-3" style="height:180px; ">
+        <h3 class="h3" style="font-family:Andalus; padding-left:35px;  font-size:20px">SUPPORT</h3>
+        <ul class="abc">
+            <li><asp:LinkButton ID="LinkButton15" runat="server">Support </asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton16" runat="server">For Our</asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton17" runat="server">Team </asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton18" runat="server">Project </asp:LinkButton></li>
+        </ul>
+
+    </div>
+    <div class="col-md-3" style="height:180px; ">
+        <h3 class="h3" style="font-family:Andalus; padding-left:35px;  font-size:20px">BLOG</h3>
+        <ul class="abc">
+            <li><asp:LinkButton ID="LinkButton19" runat="server">Details</asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton20" runat="server">Are</asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton21" runat="server">Given</asp:LinkButton></li>
+            <li><asp:LinkButton ID="LinkButton22" runat="server">Here</asp:LinkButton></li>
+        </ul>
+           
+    </div>
+         <div style="font-family:Andalus; color:whitesmoke; text-align:center; width:100%; padding-top:10px; height:40px; background-color:black; float:left; " class="col-md-12">
+           © 2017 VirtualBreez Developed By  Team 
+       </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

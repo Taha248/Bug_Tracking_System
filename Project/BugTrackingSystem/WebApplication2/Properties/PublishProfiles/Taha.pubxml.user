@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfczNN9aZhEmpFPrrDsMyRgAAAAACAAAAAAAQZgAAAAEAACAAAAB7zb722w8q4Aqekc66bYw7dDFftwB2GXetl+musrdVxwAAAAAOgAAAAAIAACAAAABdpwSTxSuBus5yuAaQLsd6dyQj1bxPJC4NRrNcBl1vKyAAAABaVLrHNRnlaRLOuXEcKATiVahMhIftoZdNIhhnQnoMzEAAAABsHbnoSj4z5yimAlLSWtQTfwCthsiFzI4lERcy8itz4bi0Wf3PoAWKTLG7bQhAOJgLa43N+akxsGHxvOeahOxP</EncryptedPassword>
+    <_PublishTargetUrl>ftp://www.virtualbreez.com/httpdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddAccount.aspx">
+      <publishTime>12/18/2017 11:47:46</publishTime>
+    </File>
+    <File Include="AdminDashBoard.aspx">
+      <publishTime>12/18/2017 11:47:54</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>12/18/2017 11:37:45</publishTime>
+    </File>
+    <File Include="AssignDeveloper.aspx">
+      <publishTime>12/18/2017 11:48:01</publishTime>
+    </File>
+    <File Include="AssignReport.aspx">
+      <publishTime>12/18/2017 11:48:06</publishTime>
+    </File>
+    <File Include="AssignTester.aspx">
+      <publishTime>12/18/2017 11:48:14</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>12/18/2017 11:37:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/mysql.data.dll">
+      <publishTime>12/18/2017 11:52:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/WebApplication2.dll">
+      <publishTime>12/18/2017 13:42:41</publishTime>
+    </File>
+    <File Include="Developer_Panel.aspx">
+      <publishTime>12/18/2017 11:48:26</publishTime>
+    </File>
+    <File Include="EditReport.aspx">
+      <publishTime>12/18/2017 11:48:36</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>12/18/2017 11:48:40</publishTime>
+    </File>
+    <File Include="mysql.data.dll">
+      <publishTime>12/18/2017 11:52:53</publishTime>
+    </File>
+    <File Include="NewLink_ByDev.aspx">
+      <publishTime>12/18/2017 11:48:45</publishTime>
+    </File>
+    <File Include="NewReport.aspx">
+      <publishTime>12/18/2017 11:48:53</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/18/2017 11:46:43</publishTime>
+    </File>
+    <File Include="Profile.aspx">
+      <publishTime>12/18/2017 11:49:03</publishTime>
+    </File>
+    <File Include="ReAssignDev.aspx">
+      <publishTime>12/18/2017 11:49:09</publishTime>
+    </File>
+    <File Include="ReassignDeveloper.aspx">
+      <publishTime>12/18/2017 11:49:17</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>12/18/2017 11:49:25</publishTime>
+    </File>
+    <File Include="ShowDetails_Dev.aspx">
+      <publishTime>12/18/2017 11:49:29</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>12/18/2017 11:43:32</publishTime>
+    </File>
+    <File Include="StyleSheet.css">
+      <publishTime>12/18/2017 11:46:44</publishTime>
+    </File>
+    <File Include="StyleSheet1.css">
+      <publishTime>12/18/2017 11:46:44</publishTime>
+    </File>
+    <File Include="SubmitSolvedReport.aspx">
+      <publishTime>12/18/2017 11:49:38</publishTime>
+    </File>
+    <File Include="SubmitSolveReport.aspx">
+      <publishTime>12/18/2017 11:49:42</publishTime>
+    </File>
+    <File Include="TesterDashBoard.aspx">
+      <publishTime>12/18/2017 11:49:46</publishTime>
+    </File>
+    <File Include="UserDashBoard.aspx">
+      <publishTime>12/18/2017 11:49:51</publishTime>
+    </File>
+    <File Include="ViewProfile.aspx">
+      <publishTime>12/18/2017 11:50:04</publishTime>
+    </File>
+    <File Include="ViewReport.aspx">
+      <publishTime>12/18/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/18/2017 13:42:51</publishTime>
+    </File>
+    <File Include="WebApplication8.csproj">
+      <publishTime>12/18/2017 11:46:44</publishTime>
+    </File>
+    <File Include="WebApplication8.csproj.user">
+      <publishTime>12/18/2017 11:46:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
